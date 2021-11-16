@@ -23,4 +23,15 @@ Basic Git commands :-
 .git clone :- creates a local copy of a project that already exists remotely. The clone includes all the project's files, history, and branches.
 
 .git add :- stages a change. Git tracks changes to a developer's codebase, but it's necessary to stage and take a snapshot of the changes to include them in the project's history. This command performs staging, the first part of that two-step process. Any changes that are staged will become a part of the next snapshot and a part of the project's history. Staging and committing separately gives developers complete control over the history of their project without changing how they code and work.
+        git add filename
+        then the file will we staged.
+        If we give the command like git add . ,then all the unstaged files will get staged
+git commit :- saves the snapshot to the project history and completes the change-tracking process. In short, a commit functions like taking a photo. Anything that's been staged with git add will become a part of the snapshot with git commit.
+         We can add message by giving command as
+         git commit -m here we are abel to write a message.
+
+git status  :-shows the status of changes as untracked, modified, or staged.
+
+git diff :- shows what changes are made to the file, the lines which are deleted those lines will appear as red. The lines which are added, those lines will appear as green.
+git branch :- it creates a branch.
 
