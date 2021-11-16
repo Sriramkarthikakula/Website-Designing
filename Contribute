@@ -3,16 +3,26 @@ About Git
 Learn about the version control system, Git, and how it works with GitHub.
 
 About version control and Git
-A version control system, or VCS, tracks the history of changes as people and teams collaborate on projects together. As developers make changes to the project, any earlier version of the project can be recovered at any time.
 
-VCSs give each contributor a unified and consistent view of a project, surfacing work that's already in progress. Seeing a transparent history of changes, who made them, and how they contribute to the development of a project helps team members stay aligned while working independently.
+A version control system, or VCS, tracks the history of changes as people and teams collaborate on projects together. As developers make changes to the project, any earlier 
+version of the project can be recovered at any time.
 
-Git lets developers see the entire timeline of their changes, decisions, and progression of any project in one place. From the moment they access the history of a project, the developer has all the context they need to understand it and start contributing.
+VCSs give each contributor a unified and consistent view of a project, surfacing work that's already in progress. Seeing a transparent history of changes, who made them, and
+how they contribute to the development of a project helps team members stay aligned while working independently.
 
-Developers work in every time zone. With a DVCS like Git, collaboration can happen any time while maintaining source code integrity. Using branches, developers can safely propose changes to production code.
+Git lets developers see the entire timeline of their changes, decisions, and progression of any project in one place. From the moment they access the history of a project, the
+developer has all the context they need to understand it and start contributing.
+
+Developers work in every time zone. With a DVCS like Git, collaboration can happen any time while maintaining source code integrity. Using branches, developers can safely
+propose changes to production code.
 
 About repositories :-
-A repository, or Git project, encompasses the entire collection of files and folders associated with a project, along with each file's revision history. The file history appears as snapshots in time called commits. The commits can be organized into multiple lines of development called branches. Because Git is a DVCS, repositories are self-contained units and anyone who has a copy of the repository can access the entire codebase and its history. Using the command line or other ease-of-use interfaces, a Git repository also allows for: interaction with the history, cloning the repository, creating branches, committing, merging, comparing changes across versions of code, and more.
+
+A repository, or Git project, encompasses the entire collection of files and folders associated with a project, along with each file's revision history. The file history
+appears as snapshots in time called commits. The commits can be organized into multiple lines of development called branches. Because Git is a DVCS, repositories are
+self-contained units and anyone who has a copy of the repository can access the entire codebase and its history. Using the command line or other ease-of-use interfaces,
+a Git repository also allows for: interaction with the history, cloning the repository, creating branches, committing, merging, comparing changes across versions of code, 
+and more.
 
 
 Basic Git commands :-
@@ -22,16 +32,22 @@ Basic Git commands :-
 
 .git clone :- creates a local copy of a project that already exists remotely. The clone includes all the project's files, history, and branches.
 
-.git add :- stages a change. Git tracks changes to a developer's codebase, but it's necessary to stage and take a snapshot of the changes to include them in the project's history. This command performs staging, the first part of that two-step process. Any changes that are staged will become a part of the next snapshot and a part of the project's history. Staging and committing separately gives developers complete control over the history of their project without changing how they code and work.
-        git add filename
-        then the file will we staged.
-        If we give the command like git add . ,then all the unstaged files will get staged
-git commit :- saves the snapshot to the project history and completes the change-tracking process. In short, a commit functions like taking a photo. Anything that's been staged with git add will become a part of the snapshot with git commit.
+.git add :- stages a change. Git tracks changes to a developer's codebase, but it's necessary to stage and take a snapshot of the changes to include them in the project's
+             history. This command performs staging, the first part of that two-step process. Any changes that are staged will become a part of the next snapshot and a part
+             of the project's history. Staging and committing separately gives developers complete control over the history of their project without changing how they code
+             and work.
+       git add filename
+       Then the file will we staged.
+       If we give the command like git add . ,then all the unstaged files will get staged
+       
+git commit :- saves the snapshot to the project history and completes the change-tracking process. In short, a commit functions like taking a photo. Anything that's been 
+              staged with git add will become a part of the snapshot with git commit.
          We can add message by giving command as
          git commit -m here we are abel to write a message.
 
 git status  :-shows the status of changes as untracked, modified, or staged.
 
 git diff :- shows what changes are made to the file, the lines which are deleted those lines will appear as red. The lines which are added, those lines will appear as green.
+
 git branch :- it creates a branch.
 
