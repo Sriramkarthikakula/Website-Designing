@@ -52,5 +52,8 @@ Basic Git commands :-
 .git branch :- it creates a branch.
 
 .git merge :- merges lines of development together. This command is typically used to combine changes made on two distinct branches. For example, a developer would merge when
-          they want to combine changes from a feature branch into the main branch for deployment.
+               they want to combine changes from a feature branch into the main branch for deployment.
+
+.git pull:- updates the local line of development with updates from its remote counterpart. Developers use this command if a teammate has made commits to a branch on a remote,
+            and they would like to reflect those changes in their local environment.
 
