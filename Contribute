@@ -62,4 +62,7 @@ Basic Git commands :-
 # download a repository on GitHub to our machine
        git clone https://github.com/owner/repo.git
        
-  
+# change into the `repo` directory
+       cd repo 
+
+
