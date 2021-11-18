@@ -65,4 +65,5 @@ Basic Git commands :-
 # change into the `repo` directory
        cd repo 
 
-
+# create a new branch to store any new changes
+       git branch my-branch
