@@ -58,3 +58,8 @@ Basic Git commands :-
             and they would like to reflect those changes in their local environment.
 
 .git push :-updates the remote repository with any commits made locally to a branch.
+
+# download a repository on GitHub to our machine
+       git clone https://github.com/owner/repo.git
+       
+  
