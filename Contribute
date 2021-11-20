@@ -59,11 +59,17 @@ Basic Git commands :-
 
 .git push :-updates the remote repository with any commits made locally to a branch.
 
-# download a repository on GitHub to our machine
+ download a repository on GitHub to our machine
        git clone https://github.com/owner/repo.git
        
-# change into the `repo` directory
+ change into the repo directory
        cd repo 
+   
+create a new branch to store any new changes
+      git branch my-branch
 
-# create a new branch to store any new changes
-       git branch my-branch
+switch to that branch (line of development)
+      git checkout my-branch
+
+
+
