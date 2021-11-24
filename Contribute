@@ -71,5 +71,6 @@ create a new branch to store any new changes
 switch to that branch (line of development)
       git checkout my-branch
 
-
+stage the changed files
+      git add file1.md file2.md
 
