@@ -89,3 +89,6 @@ create a new directory, and initialize it with git-specific functions
 
 change into the `my-repo` directory
       cd my-repo
+
+create the first file in the project
+      touch README.md
